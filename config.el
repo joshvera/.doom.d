@@ -4,6 +4,7 @@
 ;; Config
 ;;
 
+
 ;; Inconsolata font
 (setq doom-font (font-spec :family "Inconsolata" :size 18))
 
@@ -15,6 +16,8 @@
   (setq ns-use-thin-smoothing t)
   (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
   (add-to-list 'default-frame-alist '(ns-appearance . dark))
-  (add-hook 'window-setup-hook #'toggle-frame-fullscreen))
+  (run-with-idle-timer 0.01 nil 'toggle-frame-fullscreen))
+
+
 
 (load! "+bindings")
