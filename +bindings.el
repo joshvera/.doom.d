@@ -8,7 +8,11 @@
 
  :nv     "ga"    #'align-regexp
 
+ :v      "s"     #'evil-visual-replace-query-replace
+ :v      "S"     #'evil-visual-replace-replace-regexp
+
  ;; Easier window navigation
+ :en     "M-l"   #'recenter
  :en     "C-h"   #'evil-window-left
  :en     "C-j"   #'evil-window-down
  :en     "C-k"   #'evil-window-up
