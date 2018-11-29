@@ -12,7 +12,7 @@
   (projectile-add-known-project "~/github/ruin")
   (projectile-add-known-project "~/.doom.d"))
 
-(after! evil-visual-replace
+(after! evil
   (evil-visual-replace-visual-bindings))
 
 (when IS-MAC
