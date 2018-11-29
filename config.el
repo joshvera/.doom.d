@@ -12,6 +12,9 @@
   (projectile-add-known-project "~/github/ruin")
   (projectile-add-known-project "~/.doom.d"))
 
+(after! evil-visual-replace
+  (evil-visual-replace-visual-bindings))
+
 (when IS-MAC
   (setq ns-use-thin-smoothing t)
   (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
