@@ -11,6 +11,7 @@
  :v      "s"     #'evil-surround-region
  :v      "R"   #'evil-visual-replace-replace-regexp
  :n      "R"   #'query-replace-regexp
+ :gnvime "M-F" #'counsel-projectile-rg
 
  ;; Easier window navigation
  :en     "M-l"   #'recenter
