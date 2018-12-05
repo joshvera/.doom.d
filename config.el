@@ -21,6 +21,9 @@
   (add-to-list 'default-frame-alist '(ns-appearance . dark))
   (run-with-idle-timer 0.01 nil 'toggle-frame-fullscreen))
 
-
+;; Disable prompt to keep current list of tags
+(setq tags-add-tables nil)
 
 (load! "+bindings")
+
+(server-start)
