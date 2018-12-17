@@ -29,4 +29,7 @@
 
 (load! "+bindings")
 
+(after! super-save
+  (super-save-mode +1))
+
 (server-start)
