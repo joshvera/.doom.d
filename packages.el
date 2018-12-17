@@ -2,3 +2,4 @@
 
 (package! ag)
 (package! evil-visual-replace)
+(package! super-save)
