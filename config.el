@@ -15,8 +15,8 @@
 (after! evil
   (evil-visual-replace-visual-bindings))
 
-(after! dante
-  (setq dante-target "semantic"))
+;; (after! dante
+;;   (setq dante-target "semantic"))
 
 (when IS-MAC
   (setq ns-use-thin-smoothing t)
