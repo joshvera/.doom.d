@@ -32,4 +32,7 @@
 (after! super-save
   (super-save-mode +1))
 
+(after! ruby-mode
+  (setq ruby-insert-encoding-magic-comment nil))
+
 (server-start)
