@@ -1,20 +1,20 @@
 ;;; ~/.doom.d/+bindings.el -*- lexical-binding: t; -*-
 
 (map!
- :gnvime "M-s"   #'save-buffer
- :gnvime "M-/"   #'evil-commentary-line
- :gnvime "M-z"   #'undo-tree-undo
- :gnvime "M-Z"   #'undo-tree-redo
+ :gnvime "s-s"   #'save-buffer
+ :gnvime "s-/"   #'evil-commentary-line
+ :gnvime "s-z"   #'undo-tree-undo
+ :gnvime "s-Z"   #'undo-tree-redo
 
  :nv     "ga"    #'align-regexp
 
  :v      "s"     #'evil-surround-region
  :v      "R"   #'evil-visual-replace-replace-regexp
  :n      "R"   #'query-replace-regexp
- :gnvime "M-F" #'counsel-projectile-rg
+ :gnvime "s-F" #'counsel-projectile-rg
 
  ;; Easier window navigation
- :en     "M-l"   #'recenter
+ :en     "s-l"   #'recenter
  :en     "C-h"   #'evil-window-left
  :en     "C-j"   #'evil-window-down
  :en     "C-k"   #'evil-window-up
